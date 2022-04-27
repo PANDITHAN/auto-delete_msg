@@ -17,6 +17,9 @@ Delete group messages after a specific time
 ## Deploy in Heroku
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Deploy in Railway
+ [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/FtddV8)
+
 ## Deploy in your VPS
 
 ```sh
