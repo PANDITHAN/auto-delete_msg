@@ -1,2 +1,3 @@
 Pyrogram
 Tgcrypto
+pyrogram==1.4.16
