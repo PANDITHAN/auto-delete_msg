@@ -32,4 +32,4 @@ python3 bot.py
 
 ### Credits
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Arun](https://t.me/Arun_TG)
+- [PANDITHAN](https://t.me/PANDITHAN_SIR)
