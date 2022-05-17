@@ -1,4 +1,12 @@
 # AutoDelete-V2
+
+p align="center">
+  <img src="PANDITHAN/9D4C6ECD-D04D-409D-B711-B10EAB40BC9F.jpeg" alt="DELET-BOT Logo">
+</p>
+<h1 align="center">
+  <b>DELET-BOT</b>
+</h1>
+
 Delete group messages after a specific time
 
 ## Variables
