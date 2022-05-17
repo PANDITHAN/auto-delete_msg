@@ -1,7 +1,7 @@
 # AutoDelete-V2
 
 p align="center">
-  <img src="PANDITHAN/9D4C6ECD-D04D-409D-B711-B10EAB40BC9F.jpeg" alt="DELET-BOT Logo">
+  <img src="https://github.com/PANDITHAN/auto-delete_msg/blob/main/Logo/9D4C6ECD-D04D-409D-B711-B10EAB40BC9F.jpeg" alt="Evil-inside Logo">
 </p>
 <h1 align="center">
   <b>DELET-BOT</b>
