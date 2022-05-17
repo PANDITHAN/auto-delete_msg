@@ -6,7 +6,7 @@
     "delete",
     "bot"
   ],
-  "repository": "https://github.com/Arun-TG/AutoDelete-V2",
+  "repository": "https://github.com/PANDITHAN/auto-delete_msg",
   "logo": "https://telegra.ph/file/8cd549b2beef98e83349e.jpg",
   "env": {
     "BOT_TOKEN": {
