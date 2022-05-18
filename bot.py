@@ -17,8 +17,13 @@ ADMINS = []
 for usr in environ.get("ADMINS").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>Hai {},\nI'm a simple bot to delete group messages after a specific time</b>"
+START_TEXT = "<b>Hai {},\nI'm a simple bot\ndelete group messages after a specific time</b>"
 
+START_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('Credits', url='https://t.me/PANDITHAN_SIR'),
+        ]]
+    )
 
 User = Client(name="user-account",
               session_string=SESSION,
@@ -36,9 +41,17 @@ PANDITHAN = Client(name="auto-delete",
              )
 
 
-@PANDITHAN.on_message(filters.command('start') & filters.private)
-async def start(bot, message):
-    await message.reply(START_MSG.format(message.from_user.mention))
+@PANDITHAN.on_message(filters.private & filters.command(["start"]))
+
+async def start_handler(c: Client, m: Message): await m.reply_text(
+
+ text=START_TEXT.format(m.from_user.mention),
+
+        disable_web_page_preview=True,
+
+ reply_markup=START_BUTTONS
+
+    )
 
 @User.on_message(filters.chat(GROUPS))
 async def delete(user, message):
