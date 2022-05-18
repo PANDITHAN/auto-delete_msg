@@ -42,13 +42,9 @@ PANDITHAN = Client(name="auto-delete",
 
 
 @PANDITHAN.on_message(filters.private & filters.command(["start"]))
-
 async def start_handler(c: Client, m: Message): await m.reply_text(
-
  text=START_TEXT.format(m.from_user.mention),
-
         disable_web_page_preview=True,
-
  reply_markup=START_BUTTONS
 
     )
