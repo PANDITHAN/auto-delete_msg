@@ -62,12 +62,12 @@ async def delete(user, message):
        
 User.start()
 print("User Started!")
-Bot.start()
+PANDITHAN.start()
 print("Bot Started!")
 
 idle()
 
 User.stop()
 print("User Stopped!")
-Bot.stop()
+PANDITHAN.stop()
 print("Bot Stopped!")
