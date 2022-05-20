@@ -89,7 +89,7 @@ async def start_handler(c: Client, m: Message): await m.reply_text(
  reply_markup=MALIK2
     )
 
-@Bot.on_callback_query()
+@PANDITHAN.on_callback_query()
 async def cb_handler(bot, update):
     if update.data == "home":
         await m.message.edit_text(
